@@ -1,0 +1,2 @@
+1. The bug is that the numbers are passed in as strings, rather than integers, so when the addition takes place, it acts as string concatenation instead of integer additon. 
+2. I would fix it by parsing the two variables into integers, using parseInt()
